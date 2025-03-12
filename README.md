@@ -93,34 +93,34 @@ Next, we install VC_redist.x86.exe from the osTicket installation folder to ensu
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/WYL4mtp.jpg" height="80%" width="80%"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+We next install MySQL (mysql-5.5.62-win32.msi) from the osTicket installation folder in order to set up the MySQL database server. We then launch the configuration wizard and choose standard configuration. When asked for username and password, we elect to keep things simple for our lab purposes and type in “root” for both. We finalize the setup by clicking the execute button. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/nTy8mSt.jpg" height="80%" width="80%"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Then we open IIS Manager as an administrator. We register PHP within IIS by configuring the necessary settings. After this is done, we restart the server by selecting “restart” in the IIS Manager. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/LlYYFNW.jpg" height="80%" width="80%"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+From the osTicket-Installation-Files folder, we unzip osTicket-v1.15.8.zip and copy the upload folder to C:\inetpub\wwwroot. Then, within C:\inetpub\wwwroot, we rename the upload folder to osTicket. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/Dv4osVN.jpg" height="80%" width="80%"/>
+</p>
+<p>
+We then return to the IIS Manager and restart the server. We enable the necessary PHP extensions by navigating to Sites > Default > osTicket, then double-click “PHP Manager”. We select “Disable or enable an extension” and enable php_intl.dll, php_opcache.dll and php_imap.dll. After that, we refresh the osTicket web server and verify that the Intl Extension is now enabled.
 </p>
 <br />
 
