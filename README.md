@@ -52,7 +52,7 @@ Once connected to the VM, we download the osTicket-Installation-Files.zip and un
 <img src="https://i.imgur.com/cKzqEdm.jpg" height="80%" width="80%"/>
 </p>
 <p>
-We then enable Internet Information Services (IIS) by opening the Control Panel and navigating to “Turn Windows Features On or Off”. We then scroll down to locate IIS and click inside the checkbox to activate it. We expand this selection, find World Wide Web Services > Application Development Features > and CGI. We make sure that CGI is selected and then click OK.(
+We then enable Internet Information Services (IIS) by opening the Control Panel and navigating to “Turn Windows Features On or Off”. We then scroll down to locate IIS and click inside the checkbox to activate it. We expand this selection, find World Wide Web Services > Application Development Features > CGI. We make sure that CGI is selected and then click OK.
 </p>
 <br />
 
