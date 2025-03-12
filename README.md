@@ -96,7 +96,7 @@ Next, we install VC_redist.x86.exe from the osTicket installation folder to ensu
 <img src="https://i.imgur.com/WYL4mtp.jpg" height="80%" width="80%"/>
 </p>
 <p>
-We next install MySQL (mysql-5.5.62-win32.msi) from the osTicket installation folder in order to set up the MySQL database server. We then launch the configuration wizard and choose standard configuration. When asked for username and password, we elect to keep things simple for our lab purposes and type in “root” for both. We finalize the setup by clicking the execute button. 
+We next install MySQL (mysql-5.5.62-win32.msi) from the osTicket installation folder in order to set up the MySQL database server. We then launch the configuration wizard and choose standard configuration. When asked for username and password, we elect to keep things simple for the purposes of this project and type in “root” for both. We finalize the setup by clicking the execute button. 
 </p>
 <br />
 
